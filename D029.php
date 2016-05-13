@@ -4,6 +4,6 @@
 
     $ura = 7 - $a;
 
-    echo $a ."\n";
+    echo $ura ."\n";
 
 ?>

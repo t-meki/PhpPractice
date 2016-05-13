@@ -1,14 +1,13 @@
 <?php
-    $count = 0;
 
-    for ($i=0; $i < 7; $i++) {
-        $rainPer = (int)trim(fgets(STDIN));
+    $a = (int)trim(fgets(STDIN));
+    $b = (int)trim(fgets(STDIN));
+    $c = (int)trim(fgets(STDIN));
 
-        if($rainPer =< 30){
-            ++$count;
-        }
+    if($a===$b and $b===$c){
+        echo "YES\n";
+    }else{
+        echo "NO\n";
     }
-
-    echo $count ."\n";
 
 ?>

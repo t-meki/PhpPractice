@@ -2,8 +2,8 @@
 
     $a = (int)fgets(STDIN);
 
-    $ura = 7 - $a;
+    $t = $a * 60;
 
-    echo $ura ."\n";
+    echo $t ."\n";
 
 ?>
